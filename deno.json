@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+  },
+  "tasks": {
+    "gpu": "deno run --unstable ./src/gpu-test.ts",
+    "app": "deno run -Ar --unstable ./src/webview.ts"
+  },
+  "imports": { "@mys1024/worker-fn": "jsr:@mys1024/worker-fn@^2.2.6" },
+  "lint": {
+    "rules": {
+      "exclude": ["no-unused-vars"]
+    }
+  }
+}
