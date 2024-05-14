@@ -2,4 +2,6 @@
     "deno.enable": true,
     "editor.fontSize": 20,
     "terminal.integrated.fontSize": 18,
+    "explorer.fileNesting.expand": true,
+    "explorer.compactFolders": false,
 }
